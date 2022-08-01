@@ -1,0 +1,520 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    color: #2f2f2f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header, .wrapper, #about-us, .collections, .nft, #faq,
+.before-footer, footer {
+    margin: 1em 5em;
+}
+
+.navbar, .nav-left, .nav-right {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.behind-block {
+    left: 50%;
+    position: absolute;
+    top: 20%;
+    z-index: -1;
+}
+
+.front-block {
+    margin-top: 5em; 
+}
+
+.img-perso-0 img, .img-perso-1 img {
+    height: 40px;
+    width: 40px;
+}
+
+.perso-0, .perso-1 {
+    position: absolute;
+}
+
+.perso-0 {
+    right: 60%;
+    top: 8%;
+}
+
+.perso-1 {
+    left: 58%;
+    position: absolute;
+    top: 85%;
+}
+
+.perso-0 div span, .perso-1 div span {
+    font-size: 0.8em;
+}
+
+.nav-left ul li {
+    margin-left: 2em;
+}
+
+.nav-links-left ul, .employes-name ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links-left ul li a, .employes-name a {
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+.nav-links-left ul li a:hover, 
+.before-footer-center-0 ul li a:hover,
+.before-footer-center-1 ul li a:hover {
+    text-decoration: underline #2f2f2f;
+}
+
+.nav-right .btn-view {
+    background-color: #2f2f2f;
+    border-radius: 2em;
+    color: white;
+    margin-left: 2em;
+    padding: 0.8em 1.2em;
+    text-decoration: none;
+}
+
+.nav-right .btn-view:hover {
+    background-color: white;
+    border: 1px solid #2f2f2f;
+    color: #2f2f2f;
+}
+
+.nav-right .icon-social-network img {
+    height: 25px;
+    margin: 0 1em;
+    width: 25px;
+}
+
+.wrapper {
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.wrapper-information span {
+    text-transform: uppercase;
+}
+
+.wrapper-information h5 {
+    color: #82cbac;
+}
+
+.wrapper-information h2 {
+    font-size: 2.5em;
+}
+
+.wrapper-information p {
+    margin-top: 1.2em;
+}
+
+.wrapper, .perso-0, .perso-1 {
+    align-items: center;
+    display: flex;
+}
+
+.perso-0, .perso-1 {
+    background-color: #fbf3f0;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 5px 10px;
+    width: 9em;
+}
+
+.wrapper-bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    left: 0;
+    overflow-x: auto;
+    position: absolute;
+}
+
+.about-resume h3 {
+    font-size: 2.5em;
+}
+
+.about-resume p {
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+.about-resume {
+    text-align: center;
+    margin-top: 15em;
+}
+
+.employes-name {
+    height: 150px;
+    padding-top: 3em;
+}
+
+.employes-name a {
+    background-color: #2f2f2f;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 0.6em 3em;
+} 
+
+.employes-name a {
+    background-color: white;
+    border: 1px solid #2f2f2f;
+    text-decoration: none;
+}
+
+.employes-name a:hover {
+    background-color: #2f2f2f;
+    color: white;
+}
+
+
+.about-employe, .about-work, .about-work-1 {
+    display: flex;
+}
+
+.about-us-paragraph {
+    background-color: #82cbac;
+    height: 450px;
+}
+
+.about-us-bottom-img img {
+    margin-top: -60px;
+    position: absolute;
+    z-index: 3;
+}
+
+.about-us-bottom h3, .about-us-bottom p {
+    position: absolute;
+}
+
+.about-us-bottom h3 {
+    font-size: 3em;
+    margin: 2em 5em;
+    z-index: 0;
+}
+
+.about-us-bottom p {
+    margin: 16em 12em;
+    width: 50%;
+}
+
+.about-us-bottom img {
+    margin-top: -32.5em;
+    position: absolute;
+    z-index: 1;
+}
+
+.employe-information {
+    width: 40%;
+}
+
+.employe-information h5 {
+    color: #ff7f96;
+}
+
+.about-work {
+    margin-top: 5em;
+}
+
+.work-image {
+    width: 100%;
+}
+
+.about-work-1 {
+    margin: 3em 0;
+}
+
+.about-work-1-left {
+    margin: 5em 0;
+    margin-right: 6em;
+    width: 40%;
+}
+
+.about-work-1-left div {
+    margin: 1em 0;
+}
+
+.about-work-1-left {
+    margin-top: 2em;
+}
+
+.about-work-1-left .about-1 h3,
+.about-work-1-left .about-2 h3,
+.about-work-1-left .about-3 h3 {
+    font-size: 1.8em;
+    margin-top: 0.4em;
+}
+
+.about-work-1-left .about-1,
+.about-work-1-left .about-2,
+.about-work-1-left .about-3 {
+    padding: 0.3em;
+}
+
+.about-work-1-left .about-1 span,
+.about-work-1-left .about-2 span,
+.about-work-1-left .about-3 span {
+    border-radius: 14px;
+    color: white;
+    padding: 6px 12px;
+}
+
+.employe-information {
+    margin: 2em;
+}
+
+.employe-information h3 {
+    font-size: 1.7em;
+    padding: 0.7em 0;
+}
+
+.employe-information p {
+    line-height: 1.2em;
+}
+
+.about-work-1-left .about-1 span {
+    background-color: #82cbac;
+}
+
+.about-work-1-left .about-2 span {
+    background-color: #ff7f96;
+}
+
+.about-work-1-left .about-3 span {
+    background-color: #ead71b;
+}
+
+.work-information {
+    margin: 3em;
+}
+
+.work-information h4 {
+    font-size: 2em;
+}
+
+.work-information h3 {
+    font-size: 2.5em;
+}
+
+.work-information p {
+    line-height: 1.3em;
+    margin: 1em 0;
+}
+
+.work-information .btn-about {
+    padding: 20px;
+    text-align: right;
+}
+
+.work-information .btn-about a {
+    background-color: #2f2f2f;
+    color: white;
+    font-weight: bold;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+
+.work-information .btn-about a:hover {
+    background-color: white;
+    border: 1px solid #2f2f2f;
+    color: #2f2f2f;
+    font-weight: bold;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+
+.all-collections .collection-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 1em 0 0 2em;
+}
+
+.collections h2 {
+    font-size: 2.5em;
+    margin: 1em ;
+    text-align: center;
+}
+
+.collections .all-collections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.view-all-collections {
+    margin-top: 3em;
+    padding: 10px 35px;
+    text-align: center;
+}
+
+.view-all-collections a {
+    background-color: #2f2f2f;
+    color: white;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+
+.nft {
+    margin: 5em;
+}
+
+.nft h3 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.nft .top-images-nft {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.top-images-nft div {
+    margin: 1em 0;
+}
+
+.nft-child .information-nft-left, .nft-child .information-nft {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12px;
+}
+
+.information-nft-right img:not(:last-child) {
+    background-color: rgb(240, 223, 223);
+    height: 30px;
+    padding: 5px;
+    width: 30px;
+}
+
+.information-nft-right img {
+    height: 30px;
+    width: 30px;
+}
+
+.information-nft-left span {
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.nft .view-all-nfts {
+    margin-top: 3em;
+    padding: 10px 35px;
+    text-align: center;
+}
+
+.nft .view-all-nfts a {
+    background-color: #2f2f2f;
+    color: white;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+
+#faq h3 {
+    font-size: 2em;
+}
+
+#faq div {
+    display: flex;
+    margin: 2em 1em;
+    justify-content: space-between;
+}
+
+#faq div img {
+    opacity: 0.2;
+    height: 30px;
+    width: 30px;
+}
+
+.community img {
+    height: 20px;
+    margin: 1em 1em 0 0;
+    width: 20px;
+}
+
+.before-footer {
+    align-items: center;
+    display: flex;
+    margin-bottom: 5em;
+}
+
+.before-footer, .before-footer-center {
+    display: flex;
+    margin-right: 5em;
+    justify-content: space-between;
+}
+
+.before-footer-center {
+    width: 20%;
+}
+
+.before-footer-right {
+    width: 35%;
+}
+
+.before-footer-right h3 {
+    font-size: 2em;
+    margin: 1em 0;
+}
+
+.before-footer-right .signup {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.before-footer-right input, .before-footer-right button{
+    border-radius: 20px;
+    border: none;
+}
+
+.before-footer-right input {
+    background-color: #f6f6f6;
+    padding: 8px 20px;
+    width: 70%;
+}
+
+.before-footer-right button {
+    background-color: #2f2f2f;
+    color: white;
+    font-weight: bold;
+    padding: 8px 4px;
+    text-decoration: none;
+    width: 20%;
+}
+
+.before-footer-center div ul {
+    margin-top: 1em;
+}
+
+.before-footer-center div ul li {
+    margin-top: 0.5em;
+}
+
+.before-footer-center div ul li a {
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+.community p {
+    margin-top: 2em;
+}
+
+footer {
+    display: flex;
+    font-size: 0.8em;
+    justify-content: space-between;
+}
+
+.footer-right p span {
+    color: #ff7f96;
+}
